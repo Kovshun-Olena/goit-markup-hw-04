@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6, p {
     height: 40px;
     width: 40px;  
     background-color: #4d5ae5;
-   
+    border-radius: 50%;
 }
 
 .social-link-list {
@@ -311,14 +311,18 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #4d5ae5;
     display: flex; 
     border-radius: 50%;    
+    align-items: center;
+    justify-content: center;
 }
 
-.social-link:hover,
-.social-link:focus{
-    background-color: #404bbf;  
+.social-link-list:hover,
+.social-link-list:focus{
     background-color: #404bbf;
 }
     
+.icon {
+    fill: #f4f4fd;
+}
 
 
 /*4section*/
