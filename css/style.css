@@ -238,6 +238,7 @@ h1, h2, h3, h4, h5, h6, p {
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
+    height: 780px;
 }
 
  img {
@@ -247,6 +248,7 @@ h1, h2, h3, h4, h5, h6, p {
 .list {
     display: flex;
     gap: 24px;
+    width: 100%
 }
 
 .team-title {
@@ -260,6 +262,13 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 72px;
 }
 
+.team-list {
+    
+    justify-content: center;
+    get: 24px;
+    height: ;
+    overflow: hidden;
+}
 
 .nav-item-name {
         font-weight: 500;
@@ -277,18 +286,40 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .nav-item-text {
-    padding: 32px 0;
+    position: absolute;
+    padding: 32px 16px;
     text-align: center;
 }
 
-.container-social-link {  
-    height: 40px;
-    width: 40px;
-    display: flex;
+.container-social-link {
+    display: flex;   
     justify-content: center;
     gap: 24px;
-  
 }
+
+.social-link {
+    height: 40px;
+    width: 40px;  
+    background-color: #4d5ae5;
+    border-radius: 50%; 
+  
+
+}
+
+.social-link-list {
+    height: 100%;
+    width: 100%;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.fill {
+    position: 50% 50%;
+     background-color:focus  #404bbf; 
+     background-color:hover #404bbf;
+}
+
 
 
 /*4section*/
