@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, p {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-      }
+}
 
 .text {
         font-weight: 400;
@@ -283,7 +283,6 @@ h1, h2, h3, h4, h5, h6, p {
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-item-text {
@@ -304,6 +303,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 40px;  
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-list {
@@ -348,6 +348,7 @@ h1, h2, h3, h4, h5, h6, p {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
         transform: translateY(0%);
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .type-service-nav {
@@ -355,6 +356,8 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
+
 
 
 /*footer*/
