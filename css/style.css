@@ -403,8 +403,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer-log {
-    display: inline-block;
-    margin-bottom: 16px;
     margin-right: 120px;
 }
 
@@ -420,6 +418,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer-logotype {
+    display: inline-block;
+    margin-bottom: 16px;
     color: #4d5ae5;
 }
 
