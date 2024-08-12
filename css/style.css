@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6, p {
     0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
-.service-img:hover.overlay {
+.service-img:hover .overlay {
     transform: translateY(0%);
 }
 
@@ -432,10 +432,18 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 16px;
 }
 
-.social-icon-f {
+.social-link-footer {
     display: flex;
-    gap: 16px;
-    width: 16px;
-    height: 16px;
-
+    gap: 16px;   
+    
+} 
+   
+.social-icon-f {
+    width: 40px;
+    height: 40px;
+   
 }
+    
+    
+
+
