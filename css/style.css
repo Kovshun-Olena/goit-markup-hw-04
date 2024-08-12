@@ -395,7 +395,8 @@ h1, h2, h3, h4, h5, h6, p {
 .container.footer {
     display: flex;
     align-items: baseline;
-   }
+   
+}
 
 .page-footer {
     background-color: #2e2f42;
@@ -440,9 +441,12 @@ h1, h2, h3, h4, h5, h6, p {
 .social-link-footer {
     display: flex;
     gap: 16px;  
-
 } 
    
+.footer-social-link {
+    margin-right: 120px;
+}
+
 .social-icon-f {
     width: 40px;
     height: 40px;
