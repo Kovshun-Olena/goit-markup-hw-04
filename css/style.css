@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin: 0 auto;
 }
  
 .icon-description {
@@ -273,13 +274,6 @@ h1, h2, h3, h4, h5, h6, p {
         margin-bottom: 8px;
        }
 
-.nav-item {
-    background-color: #fff;
-    width: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
 .nav-item-text {
     width: auto;
     text-align: center;
@@ -344,7 +338,7 @@ h1, h2, h3, h4, h5, h6, p {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
-.type-service:hover.hidden-text {
+.type-service:hover.overlay {
        transform: translateY(0%);
 }
 
@@ -359,7 +353,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-top: none;
 }
 
-.hidden-text {
+.overlay {
     position: absolute;
     top: 0;
     font-size: 16px;
