@@ -438,13 +438,14 @@ h1, h2, h3, h4, h5, h6, p {
 .social-link-footer {
     display: flex;
     gap: 16px;  
+transition: background-color 250ms 
+cubic-bezier(0.4, 0, 0.2, 1);
 } 
    
 .social-icon-f {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1);  
+    
 }
     
 .social-link-footer-list {
@@ -455,6 +456,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #4D5AE5;
     align-items: center;
     justify-content: center;
+
 }
 
 .social-link-footer-list:focus,
